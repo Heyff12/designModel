@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>设计模式第一章</title>
+</head>
+<body>
+    <pre>
+        1、当new一个函数时，
+           该函数的 this绑定的方法和protptype上添加的方法，可以被直接使用，
+           通过对象形式复制改函数的方法，在new时无法调用，会报错
+        2、通过this定义的属性和方法是该对象自身拥有的，每次new新对象时，都会被重新创建
+        3、通过prototype继承的方法和属性，则不会被再次创建
+    </pre>
+    <script src="./1function.js" ></script>
+</body>
+</html>
